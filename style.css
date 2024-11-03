@@ -1,0 +1,60 @@
+.parent{
+width: 230px;
+border: 1px solid;
+box-shadow: 3px 3px 30px; color: rgb(129, 127, 255);
+position: absolute;
+}
+.parent img{
+    width: 100%;
+}
+.parent .top span{
+    background-color: blueviolet; color: white;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+}
+.contains{
+    padding: 15px;
+}
+.contains h5{
+    font-weight: 600;
+    font-size: 14px;
+    }
+    .contains h5:hover{
+        color: red; 
+        text-decoration: underline;
+        cursor: pointer;
+    } 
+    ul{
+        padding-left: 0;
+    }
+    ul li{
+        font-size: 13px;
+        color: #666;
+        margin: 8px;
+            }
+            .price{
+                text-align: center;
+                margin: 15px;
+            }
+            .price span{
+                color: red;
+
+            }
+            .discount a{
+                background-color: rgb(153, 153, 214);
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                box-sizing: border-box;
+                border-radius: 13px;
+                
+            }
+            .discount a:hover{
+                background-color: blue;
+                color: white;
+            }
+            
